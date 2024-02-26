@@ -7,6 +7,7 @@ import Booking from './components/Booking'
 import Description from './components/Description'
 import Header from './components/Header'
 import Signin from './components/Signin'
+
 import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom'
 import Reservation from './components/Reservation'
@@ -27,6 +28,7 @@ export default function App() {
         <Route path='/Reservation/:slug' element={<Reservation />}></Route>
          <Route path='/Test' element={<Test />}></Route>
              <Route path='/Signup' element={<Signup />}></Route>
+            
                         <Route path='/Signin' element={<Signin />}></Route>
                           <Route path='/Booking' element={<Booking />}></Route>
       </Routes>
