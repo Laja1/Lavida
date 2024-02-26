@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.raleway{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: "normal";
+}
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+
+.flexx-row {
+    margin: 10px;
+}
+
+@media (max-width: 1300px) {
+.back {
+        width: 830px;
+        height: 300px
+    }
+}
+
+@media (max-width: 900px) {
+    .fold {
+            flex-direction: column;
+        }
+    .text-md {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .longword {
+            width: 400px;
+        }
+    
+        .fold {
+            flex-direction: column;
+            align-self: center;
+            display: flex;
+            justify-content: center;
+            height: auto;
+        }
+    
+        .foldd {
+            width: 200px;
+        }
+    
+        .folddd {
+            width: 420px;
+            height: auto;
+        }
+    
+        .text-md {
+            font-size: 30px;
+        }
+    
+        .text-bg {
+    
+            font-size: 60px;
+        }
+    
+        .text-sm {
+            font-size: 15px;
+        }
+}
+
+@media (max-width: 900px) {
+    .text-bg {
+    
+            font-size: 40px;
+        }
+}
+@media (max-width: 480px) {
+    .longword{
+        width: 400px;
+    }
+
+    .cardd{
+width: 400px;
+    }
+.longgg{
+    width: 250px;
+}
+    .fold{
+        flex-direction: column;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+         .foldr {
+             flex-direction: column;
+             align-self: center;
+             display: flex;
+             gap: 10px;
+            
+             justify-content: center;
+             padding-top: 20px;
+             padding-bottom: 20px;
+             height: 100%;
+         }
+        .foldd {
+            width: 200px;
+        }
+                .folddd {
+                    width: 420px;
+                    height: auto;
+                }
+
+                .back{
+width: 430px;
+height: 100%;
+                }
+.smalll{
+    width: 400px;
+}
+.pad {
+    width: 385px;
+    align-self: center;
+        align-items: center;
+    
+        display: flex;
+        justify-content: center;
+}
+.smal {
+    width: 420px;
+    gap: 20;
+    align-self: center;
+        align-items: center;
+    
+        display: flex;
+        justify-content: center; 
+        
+    height: 200px;
+}
+.smali {
+    width: 210px;
+    height: 200px;
+}
+                .fol{
+                    flex-direction: column;
+                        align-self: center;
+                        align-items: center;
+                        
+                        display: flex;
+                        justify-content: center;
+                        height: 100%;
+                }
+    .text-md{
+        font-size: 30px;
+    }
+         .text-mdd {
+             font-size: 28px;
+         }
+                  .text-mddd {
+                      font-size: 20px;
+                  }
+    .text-bg {
+            
+            font-size: 50px;
+        }
+                 .text-sm {
+                     font-size: 15px;
+                 }
+}
+.carousel-image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
