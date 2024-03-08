@@ -7,7 +7,7 @@ const cookie = require("cookie-parser");
 const UserAuth = require("./Router/auth");
 const RoomAuth = require("./Router/hotel");
 mongoose.connect(
-  "mongodb+srv://Laja:ifeoluwa@cluster0.y4q4b.mongodb.net/reserve"
+  "mongodb+srv://Laja:<password>@cluster0.y4q4b.mongodb.net/reserve"
 );
 
 app.use(
